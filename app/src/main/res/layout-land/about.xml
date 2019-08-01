@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onepul"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="157dp"
+        android:background="#99141414"
+        android:text="@string/hi_i_m_ranjith_i_m_a_android_developer_i_m_familiar_with_python_java_and_c"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

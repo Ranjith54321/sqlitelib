@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enter">
+
+
+    <EditText
+        android:id="@+id/book"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="80dp"
+        android:background="#99141414"
+        android:hint=" ENTER BOOK NAME"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType=""
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/take"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="129dp"
+        android:text="@string/sumbit"
+        android:background="@drawable/oval"
+        />
+
+</RelativeLayout>

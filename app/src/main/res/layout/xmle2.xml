@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enter">
+
+    <Button
+        android:id="@+id/take"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="335dp"
+        android:text="@string/add_book"
+        android:background="@drawable/oval"
+        />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/take"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="334dp"
+        android:text="@string/remove_book"
+        android:background="@drawable/oval"
+        />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/take"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="59dp"
+        android:text="@string/info"
+        android:background="@drawable/oval"
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/take"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginBottom="59dp"
+        android:text="@string/update"
+        android:background="@drawable/oval"
+        />
+
+    <EditText
+        android:id="@+id/book"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="52dp"
+        android:hint="@string/enter_book_name"
+        android:background="#99141414"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="52dp"
+        android:hint="@string/enter_author_name"
+        android:background="#99141414"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType=""
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/avil"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="197dp"
+        android:hint="@string/availability_yes_or_no"
+        android:background="#99141414"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:autofillHints="" tools:targetApi="o"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="281dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/avil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="193dp"
+        android:hint="@string/if_you_update"
+        android:background="#99141414"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType=""
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/st"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-53dp"
+        android:text="@string/visit_student_data"
+        android:background="@drawable/oval"
+        />
+</RelativeLayout>

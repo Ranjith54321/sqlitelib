@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sqlitelib</string>
+    <string name="add_book">add book</string>
+    <string name="remove_book">remove book</string>
+    <string name="info">info</string>
+    <string name="update">update</string>
+    <string name="enter_book_name">Enter book name</string>
+    <string name="visit_student_data">visit student data</string>
+    <string name="enter_author_name">Enter author name</string>
+    <string name="availability_yes_or_no">AVAILABILITY(yes or no )</string>
+    <string name="hi_i_m_ranjith_i_m_a_android_developer_i_m_familiar_with_python_java_and_c">hi i\'m Ranjith I\'m a android developer. I\'m familiar with Python,Java and C</string>
+    <string name="user">USER</string>
+    <string name="staff">staff</string>
+    <string name="go1">GO</string>   <!--here is go  -->
+    <string name="pass1">PASS</string>
+    <string name="name1">NAME</string>
+    <string name="if_you_update">if you update</string>
+    <string name="search">search</string>
+    <string name="submit">submit</string>
+    <string name="sumbit">sumbit</string>
+    <string name="take">take</string>
+    <string name="r_no1">R.NO</string>
+    <string name="name2">NAME</string>
+    <string name="Enter_book_name">ENTER BOOK NAME</string>
+    <string name="go">GO</string>
+    <string name="name3">NAME</string>
+    <string name="pass">PASSWORD</string>
+    <string name="r_no">R.NO</string>
+    <string name="name">NAME</string>
+</resources>
